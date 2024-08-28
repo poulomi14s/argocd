@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: 'https://github.com/poulomi14s/argocd.git'
     path: manifest
-    targetRevision: main	#HEAD
+    targetRevision: master	#HEAD
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: default
